@@ -1,0 +1,13 @@
+---
+
+############################################
+# Delete the Kubernetes cluster
+############################################
+
+- hosts: localhost
+  connection: local
+  # tasks:
+  #   - name: test task
+  #     shell: echo "test"
+  roles:
+   - delete-cluster

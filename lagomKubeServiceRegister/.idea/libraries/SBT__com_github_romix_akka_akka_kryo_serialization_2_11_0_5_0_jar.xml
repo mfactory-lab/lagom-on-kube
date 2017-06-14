@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.github.romix.akka:akka-kryo-serialization_2.11:0.5.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.romix.akka/akka-kryo-serialization_2.11/bundles/akka-kryo-serialization_2.11-0.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.romix.akka/akka-kryo-serialization_2.11/srcs/akka-kryo-serialization_2.11-0.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

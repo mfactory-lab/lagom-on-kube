@@ -1,0 +1,35 @@
+
+---
+
+cluster_name: {{CLUSTER_NAME}} # i.e. kops.sunray-solutions.de
+state_store: {{AWS_STORE}} # s3://kops-state-b8972879hg
+
+# Remote access
+ssh_public_key: ~/.ssh/id_rsa.pub
+
+# Regions / Availability zones
+aws_region: eu-central-1
+aws_zone: eu-central-1a
+
+# EC2 host sizing
+master_size: t2.small
+master_count: 1
+master_rootVolumeSize: 100
+node_size: t2.medium
+node_count: 1
+node_rootVolumeSize: 100
+
+# Tags
+tag_creator: {{CREATOR}} # i.e. AlexanderRay
+tag_owner: {{OWNER}} # i.e. AlexanderRay
+tag_application: lagomKubeTestCluster
+tag_costcenter: dev
+tag_product: lagomKubeTestCluster
+tag_confidentiality: None
+tag_environment: DEV
+
+# Misc
+new_relic_token: {{NEWRELIC_TOKEN}} # i.e. 12345
+lagom_sr_image: docker.io/alexray/lagomkubeserviceregister:0.0.17-SNAPSHOT
+wolfram_app_id: {{WOLFRAM_APP_ID}} # i.e. ABC-EFG
+telegram_bot_token: {{TELEGRAM_BOT_TOKEN}} # i.e. 12345:12345

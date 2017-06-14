@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+#  namespace: telegram-bot
+  namespace: tools
+  name: lagom-kube-service-register
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels: 
+        app: service-register
+        role: register
+        tier: backend
+    spec:
+      containers:
+      - name: service-register
+        image: docker.io/alexray/lagomkubeserviceregister:0.0.17-SNAPSHOT
+        env:
+          - name: NEW_RELIC_LICENSE_KEY
+            value: {{ NEW_RELIC_LICENSE_KEY }}
+          - name: CASSANDRA_CONNECTION_IP
+            value: "cassandra.tools"

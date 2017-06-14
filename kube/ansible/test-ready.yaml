@@ -1,0 +1,14 @@
+---
+###########################
+# Test Ready Kubernetes Cluster
+###########################
+
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Verify that all Kubernetes nodes are ready
+      shell: kubectl get nodes | grep "Ready" | wc -l
+      register: cmd_result
+      until: cmd_result.stdout.find('{{ node_count + master_count }}') != -1
+      retries: 20
+      delay: 60

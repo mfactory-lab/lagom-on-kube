@@ -1,0 +1,59 @@
+---
+
+####################
+# Install some packages 
+####################
+
+- name: Install kubernetes dashboard
+  shell: "kubectl create -f https://raw.githubusercontent.com/kubernetes/kops/master/addons/kubernetes-dashboard/v1.5.0.yaml"
+
+- name: prepare grafana template
+  template:
+    src: grafana.yaml.j2
+    dest: /tmp/grafana.config.yaml
+    mode: 0744
+  become: false
+
+- name: install grafana
+  shell: "kubectl create -f /tmp/grafana.config.yaml"  
+
+- name: prepate heapster template
+  template:
+    src: heapster.yaml.j2
+    dest: /tmp/heapster.config.yaml
+    mode: 0744
+  become: false
+
+- name: install heapster  
+  shell: "kubectl create -f /tmp/heapster.config.yaml"  
+
+- name: prepare influxdb template
+  template:
+    src: influxdb.yaml.j2
+    dest: /tmp/influxdb.config.yaml
+    mode: 0744
+  become: false
+
+- name: install influxdb
+  shell: "kubectl create -f /tmp/influxdb.config.yaml"  
+
+- name: prepare namespace template  
+  template:
+    src: namespace.yaml.j2
+    dest: /tmp/namespace.config.yaml
+    mode: 0744
+  become: false
+
+- name: create namespace
+  shell: "kubectl create -f /tmp/namespace.config.yaml"  
+
+- name: prepare cassandra template
+  template:
+    src: cassandra.yaml.j2
+    dest: /tmp/cassandra.config.yaml
+    mode: 0744
+  become: false
+
+- name: install cassandra
+  shell: "kubectl create -f /tmp/cassandra.config.yaml" 
+

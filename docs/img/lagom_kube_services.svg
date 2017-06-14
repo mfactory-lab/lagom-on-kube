@@ -1,0 +1,393 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1064.4" height="570">
+<style xmlns="http://www.w3.org/1999/xhtml">
+</style><defs/><g transform="translate(0,0)">
+<g>
+<rect fill="#FFFFFF" stroke="none" x="0" y="0" width="1064.4" height="570"/>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,250,40)">
+<g>
+<g transform="translate(0,0) scale(7,0.75)">
+<g>
+<path fill="none" stroke="none" d="M 10 0 L 90 0 Q 100 0 100 10 L 100 90 Q 100 100 90 100 L 10 100 Q 0 100 0 90 L 0 10 Q 0 0 10 0 Z"/>
+<g transform="scale(0.14285714285714285,1.3333333333333333)">
+<path fill="#dd7e6b" stroke="none" d="M 10 0 L 690 0 Q 700 0 700 10 L 700 65 Q 700 75 690 75 L 10 75 Q 0 75 0 65 L 0 10 Q 0 0 10 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 10 0 M 10 0 L 690 0 Q 700 0 700 10 L 700 65 Q 700 75 690 75 L 10 75 Q 0 75 0 65 L 0 10 Q 0 0 10 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,272,71)">
+<g transform="translate(486,0) matrix(1,0,0,1,0,0) translate(-486,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="657" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(486,0) matrix(1,0,0,1,0,0) translate(-486,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="657" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(486,0) matrix(1,0,0,1,0,0) translate(-486,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="243" y="0" width="171" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(486,0) matrix(1,0,0,1,0,0) translate(-486,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="243" y="0" width="171" height="14" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="243" y="12">Lagom</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="285" y="12">Kube</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="318" y="12">Service</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="365" y="12">Registry</text>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,160,165)"><g><g transform="translate(0,0) scale(1.8,1.2)">
+<g>
+<path fill="none" stroke="none" d="M 10 0 L 90 0 Q 100 0 100 10 L 100 90 Q 100 100 90 100 L 10 100 Q 0 100 0 90 L 0 10 Q 0 0 10 0 Z"/>
+<g transform="scale(0.5555555555555556,0.8333333333333334)">
+<path fill="#ffe599" stroke="none" d="M 10 0 L 170 0 Q 180 0 180 10 L 180 110 Q 180 120 170 120 L 10 120 Q 0 120 0 110 L 0 10 Q 0 0 10 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 10 0 M 10 0 L 170 0 Q 180 0 180 10 L 180 110 Q 180 120 170 120 L 10 120 Q 0 120 0 110 L 0 10 Q 0 0 10 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,172,249)">
+<g transform="translate(28,0) matrix(1,0,0,1,0,0) translate(-28,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(28,0) matrix(1,0,0,1,0,0) translate(-28,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(28,0) matrix(1,0,0,1,0,0) translate(-28,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="14" y="0" width="129" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(28,0) matrix(1,0,0,1,0,0) translate(-28,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="14" y="0" width="129" height="28" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="14" y="12">Lagom</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="56" y="12">Kube</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="89" y="12">Service</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="136" y="12">1</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="15" y="26"> (</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="19" y="26">TelegramBot</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="95" y="26">Service</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="139" y="26">)</text>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,510,165)"><g><g transform="translate(0,0) scale(1.8,1.2)">
+<g>
+<path fill="none" stroke="none" d="M 10 0 L 90 0 Q 100 0 100 10 L 100 90 Q 100 100 90 100 L 10 100 Q 0 100 0 90 L 0 10 Q 0 0 10 0 Z"/>
+<g transform="scale(0.5555555555555556,0.8333333333333334)">
+<path fill="#ffe599" stroke="none" d="M 10 0 L 170 0 Q 180 0 180 10 L 180 110 Q 180 120 170 120 L 10 120 Q 0 120 0 110 L 0 10 Q 0 0 10 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 10 0 M 10 0 L 170 0 Q 180 0 180 10 L 180 110 Q 180 120 170 120 L 10 120 Q 0 120 0 110 L 0 10 Q 0 0 10 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,522,249)">
+<g transform="translate(39,28) matrix(1,0,0,1,0,0) translate(-39,-28)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="28" fill-opacity="0"/>
+</g></g><g transform="translate(39,28) matrix(1,0,0,1,0,0) translate(-39,-28)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(39,28) matrix(1,0,0,1,0,0) translate(-39,-28)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="14" y="0" width="129" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(39,28) matrix(1,0,0,1,0,0) translate(-39,-28)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="14" y="0" width="129" height="14" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="14" y="12">Lagom</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="56" y="12">Kube</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="89" y="12">Service</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="136" y="12">2</text>
+</g>
+<g transform="translate(39,28) matrix(1,0,0,1,0,0) translate(-39,-28)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="14" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(39,28) matrix(1,0,0,1,0,0) translate(-39,-28)"><g><rect fill="rgb(0,0,0)" stroke="none" x="11" y="14" width="136" height="14" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="11" y="26">(</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="15" y="26">WolframAlpha</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="99" y="26">Service</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="143" y="26">)</text>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,860,165)">
+<g>
+<g transform="translate(0,0) scale(1.8,1.2)">
+<g>
+<path fill="none" stroke="none" d="M 10 0 L 90 0 Q 100 0 100 10 L 100 90 Q 100 100 90 100 L 10 100 Q 0 100 0 90 L 0 10 Q 0 0 10 0 Z"/>
+<g transform="scale(0.5555555555555556,0.8333333333333334)"><path fill="#ffe599" stroke="none" d="M 10 0 L 170 0 Q 180 0 180 10 L 180 110 Q 180 120 170 120 L 10 120 Q 0 120 0 110 L 0 10 Q 0 0 10 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 10 0 M 10 0 L 170 0 Q 180 0 180 10 L 180 110 Q 180 120 170 120 L 10 120 Q 0 120 0 110 L 0 10 Q 0 0 10 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,872,249)">
+<g transform="translate(49,28) matrix(1,0,0,1,0,0) translate(-49,-28)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(49,28) matrix(1,0,0,1,0,0) translate(-49,-28)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(49,28) matrix(1,0,0,1,0,0) translate(-49,-28)"><g><rect fill="rgb(0,0,0)" stroke="none" x="14" y="0" width="129" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(49,28) matrix(1,0,0,1,0,0) translate(-49,-28)"><g><rect fill="rgb(0,0,0)" stroke="none" x="14" y="0" width="129" height="14" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="14" y="12">Lagom</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="56" y="12">Kube</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="89" y="12">Service</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="136" y="12">3</text>
+</g>
+<g transform="translate(49,28) matrix(1,0,0,1,0,0) translate(-49,-28)">
+<g/>
+</g>
+<g transform="translate(49,28) matrix(1,0,0,1,0,0) translate(-49,-28)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="14" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(49,28) matrix(1,0,0,1,0,0) translate(-49,-28)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="21" y="14" width="116" height="14" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="21" y="26">(</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="25" y="26">HelloWorld</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="89" y="26">Service</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="133" y="26">)</text>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,190,180)">
+<g>
+<g transform="translate(0,0) scale(1.2,0.45)">
+<g>
+<path fill="#93c47d" stroke="none" d="M 0 0 L 100 0 Q 100 0 100 0 L 100 100 Q 100 100 100 100 L 0 100 Q 0 100 0 100 L 0 0 Q 0 0 0 0 Z"/>
+<g transform="scale(0.8333333333333334,2.2222222222222223)"><path fill="none" stroke="none" d="M 0 0 L 120 0 Q 120 0 120 0 L 120 45 Q 120 45 120 45 L 0 45 Q 0 45 0 45 L 0 0 Q 0 0 0 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 0 0 M 0 0 L 120 0 Q 120 0 120 0 L 120 45 Q 120 45 120 45 L 0 45 Q 0 45 0 45 L 0 0 Q 0 0 0 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,200,189)">
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="102" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="102" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="15" y="0" width="72" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="15" y="0" width="72" height="28" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="15" y="12">Lagom</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="57" y="12">Kube</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="20" y="26">Client</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="56" y="26">Side</text>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,540,180)">
+<g>
+<g transform="translate(0,0) scale(1.2,0.45)">
+<g>
+<path fill="#93c47d" stroke="none" d="M 0 0 L 100 0 Q 100 0 100 0 L 100 100 Q 100 100 100 100 L 0 100 Q 0 100 0 100 L 0 0 Q 0 0 0 0 Z"/>
+<g transform="scale(0.8333333333333334,2.2222222222222223)">
+<path fill="none" stroke="none" d="M 0 0 L 120 0 Q 120 0 120 0 L 120 45 Q 120 45 120 45 L 0 45 Q 0 45 0 45 L 0 0 Q 0 0 0 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 0 0 M 0 0 L 120 0 Q 120 0 120 0 L 120 45 Q 120 45 120 45 L 0 45 Q 0 45 0 45 L 0 0 Q 0 0 0 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,550,189)"><g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="102" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="102" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="15" y="0" width="72" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="15" y="0" width="72" height="28" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="15" y="12">Lagom</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="57" y="12">Kube</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="20" y="26">Client</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="56" y="26">Side</text>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,890,180)">
+<g>
+<g transform="translate(0,0) scale(1.2,0.45)">
+<g>
+<path fill="#93c47d" stroke="none" d="M 0 0 L 100 0 Q 100 0 100 0 L 100 100 Q 100 100 100 100 L 0 100 Q 0 100 0 100 L 0 0 Q 0 0 0 0 Z"/>
+<g transform="scale(0.8333333333333334,2.2222222222222223)">
+<path fill="none" stroke="none" d="M 0 0 L 120 0 Q 120 0 120 0 L 120 45 Q 120 45 120 45 L 0 45 Q 0 45 0 45 L 0 0 Q 0 0 0 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 0 0 M 0 0 L 120 0 Q 120 0 120 0 L 120 45 Q 120 45 120 45 L 0 45 Q 0 45 0 45 L 0 0 Q 0 0 0 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g></g></g></g></g><g transform="matrix(1,0,0,1,900,189)">
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="102" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="102" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="15" y="0" width="72" height="28" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(30,0) matrix(1,0,0,1,0,0) translate(-30,0)"><g><rect fill="rgb(0,0,0)" stroke="none" x="15" y="0" width="72" height="28" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="15" y="12">Lagom</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="57" y="12">Kube</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="20" y="26">Client</text>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="56" y="26">Side</text>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,245.5,110.49999999999999)">
+<g transform="translate(0,0)">
+<g transform="translate(-250,-165) translate(4.5,54.500000000000014) matrix(1,0,0,1,0,0)">
+<g>
+<path fill="none" stroke="#000000" d="M 250 165 L 250 150 Q 250 140 260 140 L 445.02525316941677 140 Q 455.02525316941677 140 455.02525316941677 130 L 455.02525316941677 114.99999999999999" stroke-miterlimit="10" stroke-width="2"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,595.5,110.5)"><g transform="translate(0,0)"><g transform="translate(-598,-161) translate(2.5,50.5) matrix(1,0,0,1,0,0)">
+<g>
+<path fill="none" stroke="#000000" d="M 600 165 L 600 156.66666666666669 Q 600 148.33333333333334 600 140 L 600 140 Q 600 131.66666666666666 600 123.33333333333333 L 600 115" stroke-miterlimit="10" stroke-width="2"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,740.4747468305833,110.5)"><g transform="translate(0,0)">
+<g transform="translate(-946,-161) translate(205.52525316941671,50.5) matrix(1,0,0,1,0,0)">
+<g>
+<path fill="none" stroke="#000000" d="M 950 165 L 950 150 Q 950 140 940 140 L 754.9747468305833 140 Q 744.9747468305833 140 744.9747468305833 130 L 744.9747468305833 115" stroke-miterlimit="10" stroke-width="2"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,160,330)">
+<g>
+<g transform="translate(0,0) scale(1.8,0.75)"><g><path fill="#3d85c6" stroke="none" d="M 0 0 L 100 0 Q 100 0 100 0 L 100 100 Q 100 100 100 100 L 0 100 Q 0 100 0 100 L 0 0 Q 0 0 0 0 Z"/>
+<g transform="scale(0.5555555555555556,1.3333333333333333)">
+<path fill="none" stroke="none" d="M 0 0 L 180 0 Q 180 0 180 0 L 180 75 Q 180 75 180 75 L 0 75 Q 0 75 0 75 L 0 0 Q 0 0 0 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 0 0 M 0 0 L 180 0 Q 180 0 180 0 L 180 75 Q 180 75 180 75 L 0 75 Q 0 75 0 75 L 0 0 Q 0 0 0 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,172,361)"><g transform="translate(56,0) matrix(1,0,0,1,0,0) translate(-56,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(56,0) matrix(1,0,0,1,0,0) translate(-56,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(56,0) matrix(1,0,0,1,0,0) translate(-56,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="28" y="0" width="102" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(56,0) matrix(1,0,0,1,0,0) translate(-56,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="28" y="0" width="102" height="14" fill-opacity="0"/>
+</g>
+<text fill="rgb(255, 255, 255)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="28" y="12">Telegram</text>
+<text fill="rgb(255, 255, 255)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="84" y="12">Bot</text>
+<text fill="rgb(255, 255, 255)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="107" y="12">App</text>
+</g>
+</g>
+<g transform="translate(0,0) matrix(1,0,0,1,510,330)">
+<g>
+<g transform="translate(0,0) scale(1.8,0.75)">
+<g>
+<path fill="#3d85c6" stroke="none" d="M 0 0 L 100 0 Q 100 0 100 0 L 100 100 Q 100 100 100 100 L 0 100 Q 0 100 0 100 L 0 0 Q 0 0 0 0 Z"/>
+<g transform="scale(0.5555555555555556,1.3333333333333333)">
+<path fill="none" stroke="none" d="M 0 0 L 180 0 Q 180 0 180 0 L 180 75 Q 180 75 180 75 L 0 75 Q 0 75 0 75 L 0 0 Q 0 0 0 0 Z"/>
+<path fill="none" stroke="rgb(0,0,0)" d="M 0 0 M 0 0 L 180 0 Q 180 0 180 0 L 180 75 Q 180 75 180 75 L 0 75 Q 0 75 0 75 L 0 0 Q 0 0 0 0 Z" stroke-opacity="0" stroke-miterlimit="10" stroke-width="0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,522,361)">
+<g transform="translate(74,0) matrix(1,0,0,1,0,0) translate(-74,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(74,0) matrix(1,0,0,1,0,0) translate(-74,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="158" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(74,0) matrix(1,0,0,1,0,0) translate(-74,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="37" y="0" width="84" height="14" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(74,0) matrix(1,0,0,1,0,0) translate(-74,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="37" y="0" width="84" height="14" fill-opacity="0"/>
+</g>
+<text fill="rgb(255, 255, 255)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="37" y="12">Wolfram</text>
+<text fill="rgb(255, 255, 255)" stroke="none" font-family="Arial" font-size="12px" font-style="normal" font-weight="bold" text-decoration="" line-height="14px" x="88" y="12">Alpha</text>
+</g></g><g transform="translate(0.5,0.5) matrix(1,0,0,1,218.5,450)"><g><g transform="translate(0,0) scale(1.0128285181643562,1.0083620265617315) translate(-0.0001780171,0)">
+<g>
+<g>
+<path fill="#3966A0" stroke="rgb(0,0,0)" d="M 62.176 71.979 C 62.134 58.362 55.184 48.994 43.067 45.44 C 50.425 41.258 55.403 33.353 55.403 24.302 C 55.402 10.901 44.501 0 31.101 0 C 17.702 0 6.8 10.901 6.8 24.302 C 6.8 33.385 11.812 41.314 19.212 45.484 C 7.176 49.108 0.07 58.58 0.026 71.98 C -0.045 72.514 -0.04 73.694 1 75.043 C 4.212 79.208 14.339 81.32 31.101 81.32 C 47.863 81.32 57.992 79.208 61.203 75.043 C 62.242 73.693 62.248 72.514 62.176 71.979 Z" stroke-opacity="0" stroke-miterlimit="10"/>
+</g>
+<g>
+<path fill="#FFFFFF" stroke="rgb(0,0,0)" d="M 31.101 3 C 19.356 3 9.8 12.556 9.8 24.302 C 9.8 33.578 15.771 41.467 24.063 44.383 C 26.27 45.159 28.632 45.604 31.101 45.604 C 33.587 45.604 35.966 45.153 38.187 44.366 C 46.455 41.436 52.402 33.561 52.402 24.303 C 52.402 12.556 42.847 3 31.101 3 Z" opacity="0.93" stroke-opacity="0" stroke-miterlimit="10"/>
+</g>
+<g>
+<path fill="#FFFFFF" stroke="rgb(0,0,0)" d="M 3.026 72.104 L 3.005 72.453 C 3.026 72.606 3.126 72.966 3.583 73.455 C 4.948 74.918 10.362 78.321 31.101 78.321 C 52.57 78.321 57.642 74.748 58.828 73.212 C 59.102 72.855 59.226 72.487 59.226 72.487 L 59.176 72.104 C 59.176 58.426 51.738 49.723 38.495 47.45 C 36.161 48.197 33.678 48.604 31.099 48.604 C 28.541 48.604 26.076 48.204 23.759 47.467 C 10.643 49.795 3.026 58.637 3.026 72.104 Z" opacity="0.93" stroke-opacity="0" stroke-miterlimit="10"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,231,534)">
+<g transform="translate(6,0) matrix(1,0,0,1,0,0) translate(-6,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="37" height="16" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(6,0) matrix(1,0,0,1,0,0) translate(-6,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="0" y="0" width="37" height="16" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(6,0) matrix(1,0,0,1,0,0) translate(-6,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="3" y="0" width="31" height="16" fill-opacity="0"/>
+</g>
+</g>
+<g transform="translate(6,0) matrix(1,0,0,1,0,0) translate(-6,0)">
+<g>
+<rect fill="rgb(0,0,0)" stroke="none" x="3" y="0" width="31" height="16" fill-opacity="0"/>
+</g>
+<text fill="rgb(0, 0, 0)" stroke="none" font-family="Arial" font-size="14px" font-style="normal" font-weight="bold" text-decoration="" line-height="16.5px" x="3" y="13">User</text>
+</g>
+</g>
+<g transform="matrix(1,0,0,1,220,375)">
+<image width="60" height="105" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAABpCAYAAABmv0A2AAACH0lEQVR4Xu2a7U3DQBBEkwqADqASQgXQCXQAdACdQAWYSqADoALYlXywcsjPeyOdx9IpTiJlNPPGm4/LdrOyY7syvxsbHp24CZvwYAm40oMB3bNjwiY8WAKu9GBAPbRcaVd6sARc6cGAekq70q70YAm40oMB9ZR2pV3pwRJQVXo35zjReaoMp9HvWBdrMJx0X2ajaRilrCCcBs9LpVHKtOFKt7UZpUwbrnSb4XwMo0wabnS/wuDR7LadY5RJw43ufZi9nQ23c4wyZbjSPQ2zH7Phk7h9n4kjlCnDT2HqMlYSvYuV78F5pH7eT+LPsa7ahd3rljJ8HAZuYj3E+lwYXj7Xy+tvwl0FDrx4JYzqU4SXpmyYwmzCUNKuNBS07M+lJmzCnRLwlO4UrD94lC8PUMZ/31ZQwVnMU5pK3UMLStqVhoL2R0sqaFeaStpTGkralYaCxqZ0/vZ8HevxwO/S9bmu3qlreHU7D7vAlrv+uetwFqvuLb3F/WzAUHtLWdMpVu78/7d7+BqPZyjdD6rSaaRSTqJ5JHGMbgqShivlShKjqzDcKFfDyLXbBGnCS8ooXQXhei3nOUpXZbhRbua7T+YqoKh0NTqhbgVTmva3p6ciLDNuw7LoIWEThoKWyZiwLHpI2IShoGUyJiyLHhI2YShomYwJy6KHhE0YClomY8Ky6CFhE4aClsmYsCx6SNiEoaBlMiYsix4SNmEoaJnMD/nuWmogImAVAAAAAElFTkSuQmCC" transform="translate(0,0)"/>
+</g>
+<g transform="matrix(1,0,0,1,220,255)">
+<image width="60" height="105" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAABpCAYAAABmv0A2AAACH0lEQVR4Xu2a7U3DQBBEkwqADqASQgXQCXQAdACdQAWYSqADoALYlXywcsjPeyOdx9IpTiJlNPPGm4/LdrOyY7syvxsbHp24CZvwYAm40oMB3bNjwiY8WAKu9GBAPbRcaVd6sARc6cGAekq70q70YAm40oMB9ZR2pV3pwRJQVXo35zjReaoMp9HvWBdrMJx0X2ajaRilrCCcBs9LpVHKtOFKt7UZpUwbrnSb4XwMo0wabnS/wuDR7LadY5RJw43ufZi9nQ23c4wyZbjSPQ2zH7Phk7h9n4kjlCnDT2HqMlYSvYuV78F5pH7eT+LPsa7ahd3rljJ8HAZuYj3E+lwYXj7Xy+tvwl0FDrx4JYzqU4SXpmyYwmzCUNKuNBS07M+lJmzCnRLwlO4UrD94lC8PUMZ/31ZQwVnMU5pK3UMLStqVhoL2R0sqaFeaStpTGkralYaCxqZ0/vZ8HevxwO/S9bmu3qlreHU7D7vAlrv+uetwFqvuLb3F/WzAUHtLWdMpVu78/7d7+BqPZyjdD6rSaaRSTqJ5JHGMbgqShivlShKjqzDcKFfDyLXbBGnCS8ooXQXhei3nOUpXZbhRbua7T+YqoKh0NTqhbgVTmva3p6ciLDNuw7LoIWEThoKWyZiwLHpI2IShoGUyJiyLHhI2YShomYwJy6KHhE0YClomY8Ky6CFhE4aClsmYsCx6SNiEoaBlMiYsix4SNmEoaJnMD/nuWmogImAVAAAAAElFTkSuQmCC" transform="translate(0,0)"/>
+</g>
+<g transform="matrix(1,0,0,1,570,255)">
+<image width="60" height="105" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAABpCAYAAABmv0A2AAACH0lEQVR4Xu2a7U3DQBBEkwqADqASQgXQCXQAdACdQAWYSqADoALYlXywcsjPeyOdx9IpTiJlNPPGm4/LdrOyY7syvxsbHp24CZvwYAm40oMB3bNjwiY8WAKu9GBAPbRcaVd6sARc6cGAekq70q70YAm40oMB9ZR2pV3pwRJQVXo35zjReaoMp9HvWBdrMJx0X2ajaRilrCCcBs9LpVHKtOFKt7UZpUwbrnSb4XwMo0wabnS/wuDR7LadY5RJw43ufZi9nQ23c4wyZbjSPQ2zH7Phk7h9n4kjlCnDT2HqMlYSvYuV78F5pH7eT+LPsa7ahd3rljJ8HAZuYj3E+lwYXj7Xy+tvwl0FDrx4JYzqU4SXpmyYwmzCUNKuNBS07M+lJmzCnRLwlO4UrD94lC8PUMZ/31ZQwVnMU5pK3UMLStqVhoL2R0sqaFeaStpTGkralYaCxqZ0/vZ8HevxwO/S9bmu3qlreHU7D7vAlrv+uetwFqvuLb3F/WzAUHtLWdMpVu78/7d7+BqPZyjdD6rSaaRSTqJ5JHGMbgqShivlShKjqzDcKFfDyLXbBGnCS8ooXQXhei3nOUpXZbhRbua7T+YqoKh0NTqhbgVTmva3p6ciLDNuw7LoIWEThoKWyZiwLHpI2IShoGUyJiyLHhI2YShomYwJy6KHhE0YClomY8Ky6CFhE4aClsmYsCx6SNiEoaBlMiYsix4SNmEoaJnMD/nuWmogImAVAAAAAElFTkSuQmCC" transform="translate(0,0)"/>
+</g>
+</g>
+</svg>

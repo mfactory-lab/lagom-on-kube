@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata: 
+#  namespace: telegram-bot
+  namespace: tools
+  name: lagom-kube-service-register
+  labels: 
+    app: service-register
+    role: register
+    tier: backend
+spec:
+  ports: 
+  - name: gateway
+    port: 9000
+    targetPort: 9000
+    nodePort: 30002
+  - name: register
+    port: 8000
+    targetPort: 8000
+    nodePort: 30001
+  selector:
+    app: service-register
+    role: register
+    tier: backend
+  type: NodePort

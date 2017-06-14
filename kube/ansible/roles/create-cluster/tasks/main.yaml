@@ -1,0 +1,32 @@
+---
+
+####################
+# Create Kubernetes cluster using Kops
+####################
+
+- name: Generate kops config
+  template:
+    src: config.yaml.j2
+    dest: /tmp/config.yaml
+    mode: 0744
+  become: false
+
+# - name: List clusters
+#   shell: "kops create clusters --state {{ state_store }}"
+#   register: get_clusters
+
+- name: Configure the cluster
+  shell: "kops create -f /tmp/config.yaml --state {{ state_store }}"
+
+- name: specify ssh public key
+  shell: "kops create secret --name kops.densus-dev.de sshpublickey admin -i {{ssh_public_key}} --state {{ state_store }}"  
+
+- name: Create the physical cluster
+  shell: "kops update cluster {{ cluster_name }} --yes --state {{ state_store }}"
+
+- name: Verify that all Kubernetes nodes are ready
+  shell: kubectl get nodes | grep "Ready" | wc -l
+  register: cmd_result
+  until: cmd_result.stdout.find('{{ node_count + master_count }}') != -1
+  retries: 20
+  delay: 60

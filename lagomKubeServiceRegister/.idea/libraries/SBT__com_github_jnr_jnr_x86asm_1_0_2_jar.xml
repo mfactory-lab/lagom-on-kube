@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.github.jnr:jnr-x86asm:1.0.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-x86asm/jars/jnr-x86asm-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-x86asm/srcs/jnr-x86asm-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

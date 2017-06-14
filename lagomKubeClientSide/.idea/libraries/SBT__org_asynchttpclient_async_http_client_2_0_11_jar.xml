@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.asynchttpclient:async-http-client:2.0.11:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/async-http-client/srcs/async-http-client-2.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
