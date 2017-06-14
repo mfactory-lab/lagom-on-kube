@@ -1,0 +1,20 @@
+---
+###########################
+# bootstrap all
+###########################
+
+- hosts: localhost
+  connection: local
+  roles:
+    #- create-state-store
+    - create-cluster
+    - setup-cluster
+    - install-lagom-register
+    - install-lagom-services
+
+  tasks:
+    - name: "get kubernetes cluster info"
+      shell: "kubectl cluster-info"
+    - name: get dashboard password
+      shell: "kops get secrets -oplaintext --type=secret kube --state {{ state_store }}"
+  

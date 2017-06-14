@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: helloworld-service
+  namespace: lagom-services
+#  namespace: telegram-bot
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: helloworld-service
+        role: service
+        tier: backend
+    spec:
+      containers:
+      - name: test-service
+        image: docker.io/alexray/helloworldservice:0.0.17-SNAPSHOT
+        env:
+        - name: SERVICE_LOCATOR_ADDRESS
+          value: "http://lagom-kube-service-register.tools:8000"
+        - name: SERVICE_HOST
+          value: "helloworld-service.lagom-services"

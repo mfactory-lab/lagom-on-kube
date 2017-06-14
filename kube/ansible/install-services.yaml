@@ -1,0 +1,10 @@
+---
+###########################
+# install Lagom Services
+###########################
+
+- hosts: localhost
+  connection: local
+  roles:
+    - install-lagom-register
+    - install-lagom-services

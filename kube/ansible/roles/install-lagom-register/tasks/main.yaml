@@ -1,0 +1,15 @@
+---
+
+####################
+# Install Lagom Service Register
+####################
+
+- name: prepare template
+  template:
+    src: lrs.yaml.j2
+    dest: /tmp/lrs.config.yaml
+    mode: 0744
+  become: false
+
+- name: install service register
+  shell: "kubectl apply -f /tmp/lrs.config.yaml" 

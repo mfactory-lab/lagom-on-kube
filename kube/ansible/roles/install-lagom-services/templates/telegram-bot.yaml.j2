@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: telegram-bot-service
+  namespace: lagom-services
+  labels: 
+    app: telegram-bot
+    role: service
+    tier: backend  
+spec:
+  ports: 
+  - name: bot
+    port: 9000
+    targetPort: 9000
+    protocol: TCP
+  selector:
+    app: telegram-bot
+    role: service
+    tier: backend  
+  type: NodePort
+
+---
+
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: telegram-bot
+  namespace: lagom-services
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: telegram-bot
+        role: service
+        tier: backend
+    spec:
+      containers:
+      - name: telegram-bot
+        image: docker.io/alexray/telegrambot:0.0.17-SNAPSHOT
+        env:
+        - name: SERVICE_LOCATOR_ADDRESS
+          value: "http://lagom-kube-service-register.tools:8000"
+        - name: SERVICE_HOST
+          value: "telegram-bot-service.lagom-services" 
+        - name: TELEGRAM_BOT_TOKEN
+          value: {{telegram_bot_token}}  
+        - name: NEW_RELIC_LICENSE_KEY
+          value: {{new_relic_token}}   

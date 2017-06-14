@@ -1,0 +1,50 @@
+---
+
+####################
+# Install Lagom Services
+####################
+
+- name: prepare namespace template
+  template:
+    src: namespace.yaml.j2
+    dest: /tmp/namespace.config.yaml
+    mode: 0744
+  become: false
+
+- name: install namespace
+  shell: "kubectl apply -f /tmp/namespace.config.yaml" 
+  ignore_errors: yes
+
+- name: prepare helloWorld service template
+  template:
+    src: hello-world-service.yaml.j2
+    dest: /tmp/hello-world-service.config.yaml
+    mode: 0744
+  become: false
+
+- name: install helloWorld service
+  shell: "kubectl apply -f /tmp/hello-world-service.config.yaml"
+  ignore_errors: yes
+
+- name: prepare telegram bot service template
+  template:
+    src: telegram-bot.yaml.j2
+    dest: /tmp/telegram-bot.config.yaml
+    mode: 0744
+  become: false
+
+- name: install telegram bot service
+  shell: "kubectl apply -f /tmp/telegram-bot.config.yaml" 
+  ignore_errors: yes
+
+- name: prepare wolfram-svc service template
+  template:
+    src: wolfram-svc.yaml.j2
+    dest: /tmp/wolfram-svc.config.yaml
+    mode: 0744
+  become: false
+
+- name: install wolfram-svc service
+  shell: "kubectl apply -f /tmp/wolfram-svc.config.yaml"
+  ignore_errors: yes
+  

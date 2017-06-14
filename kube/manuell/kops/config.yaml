@@ -1,0 +1,82 @@
+apiVersion: kops/v1alpha2
+kind: Cluster
+metadata:
+  name: kops.densus-dev.de
+spec:
+  api:
+    dns: {}
+  authorization:
+    alwaysAllow: {}
+  channel: stable
+  cloudProvider: aws
+  configBase: $(KOPS_STATE_STORE)/kops.densus-dev.de
+  #configBase: s3://kops-state-b8972879hg/kops.densus-dev.de
+  dnsZone: kops.densus-dev.de
+  etcdClusters:
+  - etcdMembers:
+    - instanceGroup: master-eu-central-1a
+      name: a
+    name: main
+  - etcdMembers:
+    - instanceGroup: master-eu-central-1a
+      name: a
+    name: events
+  kubernetesApiAccess:
+  - 0.0.0.0/0
+  kubernetesVersion: 1.5.4
+  masterPublicName: api.kops.densus-dev.de
+  networkCIDR: 172.20.0.0/16
+  networking:
+    kubenet: {}
+  nonMasqueradeCIDR: 100.64.0.0/10
+  sshAccess:
+  - 0.0.0.0/0
+  subnets:
+  - cidr: 172.20.32.0/19
+    name: eu-central-1a
+    type: Public
+    zone: eu-central-1a
+  topology:
+    dns:
+      type: Public
+    masters: public
+    nodes: public
+
+---
+
+apiVersion: kops/v1alpha2
+kind: InstanceGroup
+metadata:
+  labels:
+    kops.k8s.io/cluster: kops.densus-dev.de
+  name: master-eu-central-1a
+spec:
+  image: kope.io/k8s-1.5-debian-jessie-amd64-hvm-ebs-2017-01-09
+  machineType: t2.micro
+  maxSize: 1
+  minSize: 1
+  role: Master
+  rootVolumeSize: 100
+  rootVolumeType: gp2
+  subnets:
+  - eu-central-1a
+
+
+---
+
+apiVersion: kops/v1alpha2
+kind: InstanceGroup
+metadata:
+  labels:
+    kops.k8s.io/cluster: kops.densus-dev.de
+  name: nodes
+spec:
+  image: kope.io/k8s-1.5-debian-jessie-amd64-hvm-ebs-2017-01-09
+  machineType: t2.medium
+  maxSize: 1
+  minSize: 1
+  role: Node
+  rootVolumeSize: 100
+  rootVolumeType: gp2
+  subnets:
+  - eu-central-1a

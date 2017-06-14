@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: lagom-services
+  name: telegram-bot
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: telegram-bot
+        role: service
+        tier: backend
+    spec:
+      containers:
+      - name: telegram-bot
+        image: docker.io/alexray/telegrambot:0.0.17-SNAPSHOT
+        env:
+        - name: SERVICE_LOCATOR_ADDRESS
+          value: "http://lagom-kube-service-register.tools:8000"
+        - name: SERVICE_HOST
+          value: "telegram-bot-service.lagom-services"
+        - name: TELEGRAM_BOT_TOKEN
+          value: {{ TELEGRAM_BOT_TOKEN }}

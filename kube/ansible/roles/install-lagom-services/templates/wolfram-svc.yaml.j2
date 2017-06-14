@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: wolfram-svc-service
+  namespace: lagom-services
+  labels: 
+    app: wolfram-svc
+    role: service
+    tier: backend  
+spec:
+  ports: 
+  - name: bot
+    port: 9000
+    targetPort: 9000
+    protocol: TCP
+  selector:
+    app: wolfram-svc
+    role: service
+    tier: backend  
+  type: NodePort
+
+---
+
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: wolfram-svc
+  namespace: lagom-services
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: wolfram-svc
+        role: service
+        tier: backend
+    spec:
+      containers:
+      - name: wolfram-svc
+        image: docker.io/alexray/wolframservice:0.0.17-SNAPSHOT
+        env:
+        - name: SERVICE_LOCATOR_ADDRESS
+          value: "http://lagom-kube-service-register.tools:8000"
+        - name: SERVICE_HOST
+          value: "wolfram-svc-service.lagom-services" 
+        - name: WOLFRAM_APPID
+          value: {{wolfram_app_id}} 
+        - name: NEW_RELIC_LICENSE_KEY
+          value: {{new_relic_token}}              
