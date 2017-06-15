@@ -6,7 +6,7 @@ This *tutorial* describes how to bootstrap a production-ready [Lagom][lagom] mic
 
 ## The Problem
 
-[Lagom][lagom] is a great **java**- and **scala**-based [reactive][reactive] microservices framework. The only issue with lagom is that its free version is intended for the development only; if you want to use it for production, Lightbend offers a comercial version including [ConductR][conductr] or the [Lightbend reactive platform][lightbend-ra].
+[Lagom][lagom] is a great **java**- and **scala**-based [reactive][reactive] microservices framework. Lagom is free to use in both development and production. However, as detailed later in this doc, deploying lagom requires some extra weight lifting which can be leveraged by end users or using Loightbend's [ConductR][conductr] (which is free to use up to three nodes).
 
 With this tutorial, you can bootstrap a [Kubernetes][kubernetes] cluster hosting [Lagom][lagom] microservices, which is **free-to-use**, however **production-ready**.
 
